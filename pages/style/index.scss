@@ -1,0 +1,38 @@
+@import "./reset.scss";
+
+.item-box{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin:auto;
+    .item{
+        width: 300px;
+        height: 400px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        h3{
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 26px;
+            color: #483729;
+        }
+        .img-box{
+            width: 80%;
+            border-radius: 5px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                vertical-align: bottom;
+            }
+        }
+        .price{
+            font-size: 20px;
+            font-weight: 400;
+            color: #00163a;
+        }
+    }
+}
