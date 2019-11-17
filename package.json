@@ -17,6 +17,9 @@
     "next": "^9.0.0",
     "node-sass": "^4.13.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-modal": "^3.11.1",
+    "react-model": "^3.0.3",
+    "rodal": "^1.7.0"
   }
 }

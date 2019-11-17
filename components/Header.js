@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const linkStyle = {
-  marginRight: 15
+  lineHeight:'50px',
 }
 
 export default function Header() {
@@ -9,9 +9,6 @@ export default function Header() {
     <div>
       <Link href="/">
         <a style={linkStyle}>Home</a>
-      </Link>
-      <Link href="/about">
-        <a style={linkStyle}>About</a>
       </Link>
     </div>
   )
